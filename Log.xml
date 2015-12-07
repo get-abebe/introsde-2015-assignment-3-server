@@ -1,0 +1,393 @@
+
+
+URL = "https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl"
+
+
+
+********************** Method #1: readPersonList **********************
+Parameters passed =======> null
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<people xmlns:ns2="http://soap.assignment.introsde/">
+    <person>
+        <birthdate>1988-10-12 23:00:00</birthdate>
+        <email>getachew@gmail.com</email>
+        <idPerson>51</idPerson>
+        <lastname>getachew</lastname>
+        <Measurements>
+            <lifeStatus>
+                <idMeasure>1</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>1</idMeasureDef>
+                    <measureName>weight</measureName>
+                </measureDefinition>
+                <value>85</value>
+            </lifeStatus>
+            <lifeStatus>
+                <idMeasure>6</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>2</idMeasureDef>
+                    <measureName>height</measureName>
+                </measureDefinition>
+                <value>1.80</value>
+            </lifeStatus>
+        </Measurements>
+        <name>abebe</name>
+        <username>getch123</username>
+    </person>
+    <person>
+        <birthdate>1988-10-12 23:00:00</birthdate>
+        <email>getachew@gmail.com</email>
+        <idPerson>52</idPerson>
+        <lastname>daniel</lastname>
+        <Measurements>
+            <lifeStatus>
+                <idMeasure>20</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>2</idMeasureDef>
+                    <measureName>height</measureName>
+                </measureDefinition>
+                <value>1.85</value>
+            </lifeStatus>
+            <lifeStatus>
+                <idMeasure>955</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>1</idMeasureDef>
+                    <measureName>weight</measureName>
+                </measureDefinition>
+                <value>89</value>
+            </lifeStatus>
+        </Measurements>
+        <name>abebe</name>
+        <username>john123</username>
+    </person>
+    <person>
+        <birthdate>1986-10-12 23:00:00</birthdate>
+        <email>pavel@unitn.it</email>
+        <idPerson>53</idPerson>
+        <lastname>john</lastname>
+        <Measurements>
+            <lifeStatus>
+                <idMeasure>21</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>2</idMeasureDef>
+                    <measureName>height</measureName>
+                </measureDefinition>
+                <value>1.70</value>
+            </lifeStatus>
+            <lifeStatus>
+                <idMeasure>802</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>1</idMeasureDef>
+                    <measureName>weight</measureName>
+                </measureDefinition>
+                <value>78</value>
+            </lifeStatus>
+        </Measurements>
+        <name>pavel</name>
+        <username>pavel123</username>
+    </person>
+    <person>
+        <birthdate>1974-10-12 23:00:00</birthdate>
+        <email>pirlo@gmail.com</email>
+        <idPerson>101</idPerson>
+        <lastname>gatoso</lastname>
+        <Measurements>
+            <lifeStatus>
+                <idMeasure>352</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>2</idMeasureDef>
+                    <measureName>height</measureName>
+                </measureDefinition>
+                <value>1.98</value>
+            </lifeStatus>
+            <lifeStatus>
+                <idMeasure>1405</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>1</idMeasureDef>
+                    <measureName>weight</measureName>
+                </measureDefinition>
+                <value>74</value>
+            </lifeStatus>
+        </Measurements>
+        <name>pirlo</name>
+        <username>pirlo123</username>
+    </person>
+    <person>
+        <birthdate>1974-10-12 23:00:00</birthdate>
+        <email>bob@gmail.com</email>
+        <idPerson>201</idPerson>
+        <lastname>smith</lastname>
+        <Measurements>
+            <lifeStatus>
+                <idMeasure>402</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>2</idMeasureDef>
+                    <measureName>height</measureName>
+                </measureDefinition>
+                <value>1.65</value>
+            </lifeStatus>
+            <lifeStatus>
+                <idMeasure>1408</idMeasure>
+                <measureDefinition>
+                    <idMeasureDef>1</idMeasureDef>
+                    <measureName>weight</measureName>
+                </measureDefinition>
+                <value>82</value>
+            </lifeStatus>
+        </Measurements>
+        <name>bob</name>
+        <username>smith123</username>
+    </person>
+</people>
+
+
+********************** Method #2: readPerson **********************
+Parameters passed =======> personid: 52
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:person xmlns:ns2="http://soap.assignment.introsde/">
+    <birthdate>1988-10-12 23:00:00</birthdate>
+    <email>getachew@gmail.com</email>
+    <idPerson>52</idPerson>
+    <lastname>daniel</lastname>
+    <Measurements>
+        <lifeStatus>
+            <idMeasure>20</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>2</idMeasureDef>
+                <measureName>height</measureName>
+            </measureDefinition>
+            <value>1.85</value>
+        </lifeStatus>
+        <lifeStatus>
+            <idMeasure>955</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>1</idMeasureDef>
+                <measureName>weight</measureName>
+            </measureDefinition>
+            <value>89</value>
+        </lifeStatus>
+    </Measurements>
+    <name>abebe</name>
+    <username>john123</username>
+</ns2:person>
+
+
+********************** Method #3: updatePerson **********************
+Parameters passed =======> object: p
+52
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:person xmlns:ns2="http://soap.assignment.introsde/">
+    <birthdate>1988-10-12 23:00:00</birthdate>
+    <email>getachew@gmail.com</email>
+    <idPerson>52</idPerson>
+    <lastname>daniel</lastname>
+    <Measurements>
+        <lifeStatus>
+            <idMeasure>20</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>2</idMeasureDef>
+                <measureName>height</measureName>
+            </measureDefinition>
+            <value>1.85</value>
+        </lifeStatus>
+        <lifeStatus>
+            <idMeasure>955</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>1</idMeasureDef>
+                <measureName>weight</measureName>
+            </measureDefinition>
+            <value>89</value>
+        </lifeStatus>
+    </Measurements>
+    <name>abebe</name>
+    <username>john123</username>
+</ns2:person>
+
+
+********************** Method #4: createPerson **********************
+Parameters passed =======> object: newPerson
+Response =======>
+The assigned id for the new created person is:  1702
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:person xmlns:ns2="http://soap.assignment.introsde/">
+    <birthdate>1995-08-06</birthdate>
+    <email>tempEmail@tem.com</email>
+    <idPerson>1702</idPerson>
+    <lastname>claudo</lastname>
+    <Measurements/>
+    <name>fabio</name>
+    <username>peterk</username>
+</ns2:person>
+
+
+********************** Method #5: deletePerson **********************
+Parameters passed =======> id: createdpersonid
+Response =======>
+The id of the deleted person is 1702
+
+
+********************** Method #6: readPersonHistory **********************
+Parameters passed =======> personid: 53 and measureType : weight
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<healthProfile-history xmlns:ns2="http://soap.assignment.introsde/">
+    <measure>
+        <idMeasureHistory>56</idMeasureHistory>
+        <measureDefinition>
+            <idMeasureDef>1</idMeasureDef>
+            <measureName>weight</measureName>
+        </measureDefinition>
+        <person>
+            <birthdate>1986-10-12 23:00:00</birthdate>
+            <email>pavel@unitn.it</email>
+            <idPerson>53</idPerson>
+            <lastname>john</lastname>
+            <Measurements>
+                <lifeStatus>
+                    <idMeasure>21</idMeasure>
+                    <measureDefinition>
+                        <idMeasureDef>2</idMeasureDef>
+                        <measureName>height</measureName>
+                    </measureDefinition>
+                    <value>1.70</value>
+                </lifeStatus>
+                <lifeStatus>
+                    <idMeasure>802</idMeasure>
+                    <measureDefinition>
+                        <idMeasureDef>1</idMeasureDef>
+                        <measureName>weight</measureName>
+                    </measureDefinition>
+                    <value>78</value>
+                </lifeStatus>
+            </Measurements>
+            <name>pavel</name>
+            <username>pavel123</username>
+        </person>
+        <timestamp>2008-12-27T23:00:00+01:00</timestamp>
+        <value>77</value>
+    </measure>
+    <measure>
+        <idMeasureHistory>104</idMeasureHistory>
+        <measureDefinition>
+            <idMeasureDef>1</idMeasureDef>
+            <measureName>weight</measureName>
+        </measureDefinition>
+        <person>
+            <birthdate>1986-10-12 23:00:00</birthdate>
+            <email>pavel@unitn.it</email>
+            <idPerson>53</idPerson>
+            <lastname>john</lastname>
+            <Measurements>
+                <lifeStatus>
+                    <idMeasure>21</idMeasure>
+                    <measureDefinition>
+                        <idMeasureDef>2</idMeasureDef>
+                        <measureName>height</measureName>
+                    </measureDefinition>
+                    <value>1.70</value>
+                </lifeStatus>
+                <lifeStatus>
+                    <idMeasure>802</idMeasure>
+                    <measureDefinition>
+                        <idMeasureDef>1</idMeasureDef>
+                        <measureName>weight</measureName>
+                    </measureDefinition>
+                    <value>78</value>
+                </lifeStatus>
+            </Measurements>
+            <name>pavel</name>
+            <username>pavel123</username>
+        </person>
+        <timestamp>2013-06-29T22:00:00+02:00</timestamp>
+        <value>80</value>
+    </measure>
+</healthProfile-history>
+
+
+********************** Method #7: readMeasureType **********************
+Parameters passed =======> null
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measureTypes>
+    <measureType>weight</measureType>
+    <measureType>height</measureType>
+    <measureType>steps</measureType>
+    <measureType>blood pressure</measureType>
+    <measureType>heart rate</measureType>
+    <measureType>bmi</measureType>
+</measureTypes>
+
+
+********************** Method #8: readPersonMeasure **********************
+Parameters passed =======> personid: 52  measureType : weight and mid : 3
+Response ==> 
+The value of the weight is: 75
+
+
+********************** Method #9: savePersonMeasure ********************** 
+Parameters passed =======> personid: 101 and lifestatus 
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:person xmlns:ns2="http://soap.assignment.introsde/">
+    <birthdate>1974-10-12 23:00:00</birthdate>
+    <email>pirlo@gmail.com</email>
+    <idPerson>101</idPerson>
+    <lastname>gatoso</lastname>
+    <Measurements>
+        <lifeStatus>
+            <idMeasure>352</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>2</idMeasureDef>
+                <measureName>height</measureName>
+            </measureDefinition>
+            <value>1.98</value>
+        </lifeStatus>
+        <lifeStatus>
+            <idMeasure>1405</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>1</idMeasureDef>
+                <measureName>weight</measureName>
+            </measureDefinition>
+            <value>74</value>
+        </lifeStatus>
+    </Measurements>
+    <name>pirlo</name>
+    <username>pirlo123</username>
+</ns2:person>
+
+
+********************** Method #10: updateMeasureDefinition **********************
+Parameters passed =======> personid: 201 and lifestatus 
+Response =======>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:person xmlns:ns2="http://soap.assignment.introsde/">
+    <birthdate>1974-10-12 23:00:00</birthdate>
+    <email>bob@gmail.com</email>
+    <idPerson>201</idPerson>
+    <lastname>smith</lastname>
+    <Measurements>
+        <lifeStatus>
+            <idMeasure>402</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>2</idMeasureDef>
+                <measureName>height</measureName>
+            </measureDefinition>
+            <value>1.65</value>
+        </lifeStatus>
+        <lifeStatus>
+            <idMeasure>1408</idMeasure>
+            <measureDefinition>
+                <idMeasureDef>1</idMeasureDef>
+                <measureName>weight</measureName>
+            </measureDefinition>
+            <value>82</value>
+        </lifeStatus>
+    </Measurements>
+    <name>bob</name>
+    <username>smith123</username>
+</ns2:person>
+
+
