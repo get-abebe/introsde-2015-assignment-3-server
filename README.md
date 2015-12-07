@@ -19,7 +19,7 @@ iii. introsde.assignment.soap this package is for my service interface. I have P
 
 iv. introsde.assignment.endpoint This package contains server implemetation
 
-v. introsde.rest.ehealth.client This package contains Client implemetation
+v. introsde.assignment.client This package contains Client implemetation
 
 vi. introsde.assignment.test unit testing for person and life status
 
