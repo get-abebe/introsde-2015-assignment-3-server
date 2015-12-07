@@ -4,7 +4,7 @@
  
  Name: Getachew Demissie Abebe
  
- I have done it by myself
+ I have done both server and client by by myself
  
  URL of server:  https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl
  
