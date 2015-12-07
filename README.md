@@ -2,7 +2,7 @@
  Assignment 03: SOAP Web Services 
  Name: Getachew Demissie Abebe
  I have done it by myself
- URL of server:  "https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl"
+ URL of server:  https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl
  Complete Assignment. Server: Method#1 to Method#10
  
                 *********** PART 1 ***********
