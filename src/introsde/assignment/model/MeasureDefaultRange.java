@@ -2,7 +2,6 @@ package introsde.assignment.model;
 
 import introsde.assignment.dao.LifeCoachDao;
 import introsde.assignment.model.MeasureDefinition;
-
 import java.io.Serializable;
 import java.util.List;
 
