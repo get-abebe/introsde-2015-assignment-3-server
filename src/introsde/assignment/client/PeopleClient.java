@@ -266,9 +266,6 @@ public class PeopleClient{
 			this.measureType = measureTypes;
 		}
 		
-		
-		
-		
 	}
     
    
