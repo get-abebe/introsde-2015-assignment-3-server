@@ -2,7 +2,6 @@ package introsde.assignment.model;
 
 import introsde.assignment.dao.LifeCoachDao;
 import introsde.assignment.model.LifeStatus;
-
 import java.io.Serializable;
 
 import javax.persistence.*;
