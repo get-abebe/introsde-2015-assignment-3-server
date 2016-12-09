@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.ArrayList;
 import javax.jws.WebService;
 
-
 //Service Implementation
 
 @WebService(endpointInterface = "introsde.assignment.soap.People",
