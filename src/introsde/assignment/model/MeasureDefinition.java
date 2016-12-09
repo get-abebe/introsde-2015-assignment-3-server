@@ -5,7 +5,6 @@ import introsde.assignment.model.MeasureDefaultRange;
 
 import java.io.Serializable;
 import java.util.List;
-
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
