@@ -3,7 +3,6 @@ import introsde.assignment.model.LifeStatus;
 import introsde.assignment.model.Person;
 import introsde.assignment.model.MeasureDefinition;
 import introsde.assignment.model.HealthMeasureHistory;
-
 import java.util.List;
 //import java.util.Date;
 import javax.jws.WebMethod;
