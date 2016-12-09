@@ -1,7 +1,6 @@
 
 
-URL = "https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl"
-
+URL = "https://young-lowlands-83639.herokuapp.com/soap/people?wsdl"
 
 
 ********************** Method #1: readPersonList **********************
