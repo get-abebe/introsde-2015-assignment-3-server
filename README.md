@@ -1,4 +1,4 @@
-# introsde-2015-assignment-3-server
+# introsde-2016-assignment-3-server
 
  Assignment 03: SOAP Web Services 
  
@@ -6,13 +6,13 @@
  
  I have done both server and client by by myself
  
- URL of server:  https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl
+ URL of server: https://young-lowlands-83639.herokuapp.com/soap/people?wsdl
  
  Complete Assignment. Server: Method#1 to Method#10
  
                 *********** PART 1 ***********
                 
-          **** Structure of the project ****
+                                **** Structure of the project ****
 
 ** Here are the packages which contains the application:
 
@@ -30,7 +30,7 @@ vi. introsde.assignment.test unit testing for person and life status
 
 The database for this application is SQLite DB and named lifecoach.sqlite which is located in the root folder of the repositery. I have also Log.xml file in the main repositery which contains all the request and response information.      
 
-                   *********** PART 2 ***********
+                             *********** PART 2 ***********
                    
              *** Implemented Services using JAX-WS ***
              
@@ -55,8 +55,10 @@ Method #9: savePersonMeasure(Long id, Measure m) =>It save a new measure object 
 Method #10: updatePersonMeasure(Long id, Measure m) => It update the measure identified with weight and mid = 1, related to the Person identified by id = 201                 
                    
                    *********** PART 3 ***********
-            *** Check WSDL ***
-==> The server is deployed on heroku and its url is => https://ancient-atoll-4298.herokuapp.com/soap/people?wsdl
+                   
+                            *** Check WSDL ***
+                            
+==> The server is deployed on heroku and its url is => https://young-lowlands-83639.herokuapp.com/soap/people?wsdl
 
 ==> You can check by opeing it on the web browser.
 
