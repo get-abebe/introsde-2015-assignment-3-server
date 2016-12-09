@@ -22,8 +22,7 @@
         module="lab08"
         status="integration">
 	</info>
-	
-	<dependencies>
+		<dependencies>
         <!-- JAX-WS bundle dependency --> 
         <dependency org="com.sun.xml.ws" name="jaxws-rt" rev="2.2.8"/>
 	
