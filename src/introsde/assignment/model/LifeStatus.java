@@ -1,5 +1,4 @@
 package introsde.assignment.model;
-
 import introsde.assignment.dao.LifeCoachDao;
 import introsde.assignment.model.MeasureDefinition;
 
