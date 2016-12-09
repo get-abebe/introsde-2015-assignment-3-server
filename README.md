@@ -62,7 +62,7 @@ Method #10: updatePersonMeasure(Long id, Measure m) => It update the measure ide
 
 ==> You can check by opeing it on the web browser.
 
-==> The client has been pushed to git hub by separate repositery. the name of the client repositery is:                                    https://github.com/get-abebe/introsde-2016-assignment-3-client
+==> The client has been pushed to git hub by separate repositery. the name of the client repositery is:                                    https://github.com/get-abebe/introsde-2016-assignment-03-client
 
 ==> To execute the Client,first clone the repositery to your local machine, then run ant install, and run ant execute.client.             And, finally press enter to see all the outputs.
     
