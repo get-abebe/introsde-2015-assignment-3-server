@@ -2,7 +2,6 @@ package introsde.assignment.model;
 
 import introsde.assignment.dao.LifeCoachDao;
 import introsde.assignment.model.Person;
-
 import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.Date;
