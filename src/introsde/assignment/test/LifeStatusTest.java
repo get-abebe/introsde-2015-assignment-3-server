@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 import introsde.assignment.model.LifeStatus;
 import introsde.assignment.model.MeasureDefinition;
 import introsde.assignment.model.Person;
-
 import java.util.List;
 
 import javax.persistence.EntityManager;
