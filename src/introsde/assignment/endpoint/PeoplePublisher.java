@@ -4,7 +4,6 @@ import java.net.InetAddress;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.io.IOException;
-
 import javax.xml.ws.Endpoint;
 
 public class PeoplePublisher {
