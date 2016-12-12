@@ -4,7 +4,7 @@
  
  Name: Getachew Demissie Abebe
  
- I have done both server and client by by myself
+ I have done both server and client by myself
  
  URL of server: https://young-lowlands-83639.herokuapp.com/soap/people?wsdl
  
@@ -64,7 +64,7 @@ Method #10: updatePersonMeasure(Long id, Measure m) => It update the measure ide
 
 ==> The client has been pushed to git hub by separate repositery. the name of the client repositery is:                                    https://github.com/get-abebe/introsde-2016-assignment-03-client
 
-==> To execute the Client,first clone the repositery to your local machine, then run ant install, and run ant execute.client.             And, finally press enter to see all the outputs.
+==> To execute the Client,first clone the repositery to your local machine. Then run ant install and run ant execute.client.             And, finally press enter to see all the outputs.
     
     
        
